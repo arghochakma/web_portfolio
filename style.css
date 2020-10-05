@@ -43,6 +43,28 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.experience_section{
+    float: left;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
 .single_experience{
     box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 60%;
+    background-color: white;
+}
+#data_science{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#business_analyst{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer {
+    text-align: center;
 }

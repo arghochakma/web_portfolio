@@ -20,7 +20,7 @@ h2{
 }
 .half_width img{
     padding-left: 20px;
-    width: 80%;
+    width: 100%;
 }
 .top_banner{
     background-image: url("images/top-banner.png") ;
@@ -64,7 +64,4 @@ section{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
-}
-footer {
-    text-align: center;
 }
